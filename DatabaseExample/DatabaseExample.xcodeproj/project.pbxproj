@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		07916D5888236788BA81868D /* Pods_DatabaseExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835A8DF65F5F2260A4F20366 /* Pods_DatabaseExample.framework */; };
+		841B2BF0225D39B0004ED9F1 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 841B2BEF225D39B0004ED9F1 /* MainMenu.sks */; };
+		841B2BF2225D4061004ED9F1 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B2BF1225D4061004ED9F1 /* MainMenu.swift */; };
 		8C602BB8222819FE00776709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C602BB7222819FE00776709 /* AppDelegate.swift */; };
 		8C602BBA222819FE00776709 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8C602BB9222819FE00776709 /* GameScene.sks */; };
 		8C602BBC222819FE00776709 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8C602BBB222819FE00776709 /* Actions.sks */; };
@@ -23,6 +25,8 @@
 /* Begin PBXFileReference section */
 		5190F08D777309F91DAA93AE /* Pods-DatabaseExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatabaseExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DatabaseExample/Pods-DatabaseExample.debug.xcconfig"; sourceTree = "<group>"; };
 		835A8DF65F5F2260A4F20366 /* Pods_DatabaseExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatabaseExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841B2BEF225D39B0004ED9F1 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		841B2BF1225D4061004ED9F1 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		8C602BB4222819FE00776709 /* DatabaseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatabaseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C602BB7222819FE00776709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C602BB9222819FE00776709 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -80,12 +84,14 @@
 		8C602BB6222819FE00776709 /* DatabaseExample */ = {
 			isa = PBXGroup;
 			children = (
-				8C602BB7222819FE00776709 /* AppDelegate.swift */,
+				841B2BEF225D39B0004ED9F1 /* MainMenu.sks */,
+				841B2BF1225D4061004ED9F1 /* MainMenu.swift */,
 				8C602BB9222819FE00776709 /* GameScene.sks */,
-				8C602BBB222819FE00776709 /* Actions.sks */,
 				8C602BBD222819FE00776709 /* GameScene.swift */,
+				8C602BBB222819FE00776709 /* Actions.sks */,
 				8C602BD122281BD900776709 /* RealtimeDB.swift */,
 				8C602BBF222819FE00776709 /* GameViewController.swift */,
+				8C602BB7222819FE00776709 /* AppDelegate.swift */,
 				8C602BC1222819FE00776709 /* Main.storyboard */,
 				8C602BC422281A0000776709 /* Assets.xcassets */,
 				8C602BC622281A0000776709 /* LaunchScreen.storyboard */,
@@ -168,6 +174,7 @@
 				8C602BC522281A0000776709 /* Assets.xcassets in Resources */,
 				8C602BC822281A0000776709 /* LaunchScreen.storyboard in Resources */,
 				8C602BBC222819FE00776709 /* Actions.sks in Resources */,
+				841B2BF0225D39B0004ED9F1 /* MainMenu.sks in Resources */,
 				8C602BD022281B5E00776709 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841B2BF2225D4061004ED9F1 /* MainMenu.swift in Sources */,
 				8C602BD222281BD900776709 /* RealtimeDB.swift in Sources */,
 				8C602BBE222819FE00776709 /* GameScene.swift in Sources */,
 				8C602BC0222819FE00776709 /* GameViewController.swift in Sources */,
