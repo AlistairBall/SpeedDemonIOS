@@ -37,7 +37,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     override func didMove(to view: SKView) {
         self.physicsWorld.contactDelegate = self
-        addLives()
+        
         self.anchorPoint = CGPoint(x: 0.5, y: 0.5)
         player = SKSpriteNode(imageNamed: "RedCar")
         player.name = "Player"
@@ -63,6 +63,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         score = 0
         self.addChild(scoreLabel)
 
+        addLives()
         makeBackground()
         
      
@@ -74,7 +75,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         for live in 1 ... 3{
             let liveNode = SKSpriteNode(imageNamed: "RedCar")
             liveNode.position = CGPoint(x: (frame.maxX) - CGFloat(4 - live) * liveNode.size.width, y: frame.maxY - 50)
-            liveNode.zPosition = 3
+            liveNode.zPosition = 4
             self.addChild(liveNode)
             lives.append(liveNode)
         }

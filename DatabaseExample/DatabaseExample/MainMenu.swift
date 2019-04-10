@@ -15,6 +15,7 @@ class MainMenu: SKScene {
     override func didMove(to view: SKView) {
         
         newGameButton = self.childNode(withName: "NewGame") as? SKSpriteNode
+        newGameButton.zPosition = 3
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
