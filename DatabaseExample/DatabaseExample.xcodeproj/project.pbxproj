@@ -11,6 +11,7 @@
 		841B2BF0225D39B0004ED9F1 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 841B2BEF225D39B0004ED9F1 /* MainMenu.sks */; };
 		841B2BF2225D4061004ED9F1 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B2BF1225D4061004ED9F1 /* MainMenu.swift */; };
 		841B2BF6226534F9004ED9F1 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841B2BF5226534F9004ED9F1 /* UserNotifications.framework */; };
+		841B2C04226E414A004ED9F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B2C03226E414A004ED9F1 /* ViewController.swift */; };
 		8C602BB8222819FE00776709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C602BB7222819FE00776709 /* AppDelegate.swift */; };
 		8C602BBC222819FE00776709 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8C602BBB222819FE00776709 /* Actions.sks */; };
 		8C602BBE222819FE00776709 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C602BBD222819FE00776709 /* GameScene.swift */; };
@@ -28,6 +29,7 @@
 		841B2BEF225D39B0004ED9F1 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
 		841B2BF1225D4061004ED9F1 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		841B2BF5226534F9004ED9F1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		841B2C03226E414A004ED9F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C602BB4222819FE00776709 /* DatabaseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatabaseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C602BB7222819FE00776709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C602BBB222819FE00776709 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				8C602BC622281A0000776709 /* LaunchScreen.storyboard */,
 				8C602BCF22281B5E00776709 /* GoogleService-Info.plist */,
 				8C602BC922281A0000776709 /* Info.plist */,
+				841B2C03226E414A004ED9F1 /* ViewController.swift */,
 			);
 			path = DatabaseExample;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841B2C04226E414A004ED9F1 /* ViewController.swift in Sources */,
 				841B2BF2225D4061004ED9F1 /* MainMenu.swift in Sources */,
 				8C602BD222281BD900776709 /* RealtimeDB.swift in Sources */,
 				8C602BBE222819FE00776709 /* GameScene.swift in Sources */,

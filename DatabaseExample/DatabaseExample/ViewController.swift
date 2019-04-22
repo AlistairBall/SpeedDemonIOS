@@ -6,3 +6,20 @@
 //
 
 import Foundation
+import UIKit
+
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var emailText: UITextField!
+    @IBOutlet weak var passwordText: UITextField!
+    @IBOutlet weak var segmentControl: UISegmentedControl!
+    @IBOutlet weak var loginButton: UIButton!
+    
+    
+    @IBAction func onClick(_ sender: UIButton) {
+    }
+    
+    
+    
+    
+}
