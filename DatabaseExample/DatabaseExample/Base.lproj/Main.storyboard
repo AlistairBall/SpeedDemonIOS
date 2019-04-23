@@ -74,11 +74,12 @@
                         <outlet property="loginButton" destination="cu8-EA-Iv2" id="cKD-62-H40"/>
                         <outlet property="passwordText" destination="UO1-sg-EPO" id="zC8-zt-P9V"/>
                         <outlet property="segmentControl" destination="gK9-Gn-yAM" id="VKP-1N-OkC"/>
+                        <segue destination="BV1-FR-VrT" kind="show" identifier="Transition" id="2xD-IJ-Fnx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Na3-qK-HoZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-543.20000000000005" y="100.29985007496252"/>
+            <point key="canvasLocation" x="-697" y="101"/>
         </scene>
     </scenes>
 </document>

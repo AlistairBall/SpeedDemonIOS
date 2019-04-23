@@ -9,6 +9,7 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import FirebaseAuth
 
 struct Action {
     let name: String
@@ -30,6 +31,8 @@ class GameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(Auth.auth().currentUser?.email)
         
         //wrapper i wrote for firebase db very simple. Check this class for implementation details
         let database = RealtimeDB()
